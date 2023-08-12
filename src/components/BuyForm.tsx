@@ -153,7 +153,7 @@ const BuyForm = () => {
     <div className="relative mx-auto w-full max-w-lg self-stretch rounded-3xl bg-black shadow-xl border-gold"> {/* Changed background color and added border color */}
       {loading && <Loading className="z-50 rounded-3xl" />}
 
-      <div className="flex flex-col items-center justify-center rounded-t-3xl bg-gold px-4 py-4 text-dark"> {/* Changed text color and background color */}
+      <div className="flex flex-col items-center justify-center rounded-t-2xl bg-gold px-4 py-4 text-dark"> {/* Changed text color and background color */}
       <p className="-mt-6 mb-2 rounded-full bg-gold px-3 py-1 text-sm text-dark">
           {t("release-one-month-after-the-end-of-the-presale")}
         </p>
