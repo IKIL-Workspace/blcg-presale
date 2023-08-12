@@ -15,7 +15,7 @@ const config = {
   extraSoldAmount: 105_126,
 
   presaleContract: {
-    [bsc.id]: "0x62de4a64e585e7f6efb14ccb25638302a58fd094",
+    [bsc.id]: "0x2e3b6733A978Fe63eFdE637fD6dc1392108ACE9c",
     [goerli.id]: "0xAdD443da9e623a2436abCF315efe87a3f1557A15",
   } as { [key: number]: Address }, // presale contract address
 
